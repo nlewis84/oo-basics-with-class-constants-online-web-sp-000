@@ -12,7 +12,7 @@ class Book
 
   GENRES = []
   
-  def :genre
+  def genre
     GENRES << :genre
   end
 
