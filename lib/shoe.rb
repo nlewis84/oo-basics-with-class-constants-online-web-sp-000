@@ -6,6 +6,8 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
+    BRANDS.any?
+    
     BRANDS << brand
   end
 
