@@ -10,8 +10,10 @@ class Book
     puts "Flipping the page...wow, you read fast!"
   end
 
-  def GENRES
-    
+  GENRES = []
+  
+  def :genre
+    GENRES << :genre
   end
 
 end
