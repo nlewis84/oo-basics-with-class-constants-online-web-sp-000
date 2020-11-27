@@ -6,9 +6,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS.each do |i|
-      
-    BRANDS << brand
+    BRANDS << brand if BRANDS.any?(brand)
   end
 
   def cobble
